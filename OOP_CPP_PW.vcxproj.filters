@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{03f85839-f64a-4b37-b559-2fd5146f0f36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="book">
+      <UniqueIdentifier>{89faf47c-ce62-4584-a605-fe5e3f3ea2e5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="book.cpp">
+      <Filter>book</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="book.h">
+      <Filter>book</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
